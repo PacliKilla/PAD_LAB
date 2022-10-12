@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\C#projects\\PAD_LAB\\ConsoleApp1\\UserService.csproj": {}
+  },
+  "projects": {
+    "D:\\C#projects\\PAD_LAB\\ConsoleApp1\\UserService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#projects\\PAD_LAB\\ConsoleApp1\\UserService.csproj",
+        "projectName": "UserService",
+        "projectPath": "D:\\C#projects\\PAD_LAB\\ConsoleApp1\\UserService.csproj",
+        "packagesPath": "C:\\Users\\Marin\\.nuget\\packages\\",
+        "outputPath": "D:\\C#projects\\PAD_LAB\\ConsoleApp1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.IdentityModel.Logging": {
+              "target": "Package",
+              "version": "[6.23.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.23.1, )"
+            },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            },
+            "Ocelot.Provider.Polly": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "Polly.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.23.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
